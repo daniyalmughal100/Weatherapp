@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(100, 100, 100);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 100px;
+    width: 159px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-right: 470px;
+
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+input{
+    height: 70px;
+    width: 500px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 32px;
+    padding: 20px;
+}
+.searchiconpic{
+    height: 30px;
+    width: 30px;
+    margin-left: -70px;
+    margin-top: 5px;
+    
+    
+}
+.weatherdetailscontainer{
+    display: none;
+    
+}
+.weatherdetails{
+    display: flex;
+}
+.windandhumidity{
+    display: flex;
+    margin-top: 40px;
+}
+.humidity{
+    display: flex;
+    margin: 5px 0px 0px 0px;
+}
+.wind{
+    display: flex;
+    margin-left: 70px;
+}
+.weatherstatus{
+    height: 450px;
+    width: 500px;
+    margin-left: 70px;
+}
+.otherdetails{
+    color: white;
+    margin: 35px 0px 0px 60px;
+}
+.temheading{
+    font-size: 150px;
+    margin-left: 180px;
+}
+.cityname{
+    font-size: 57px;
+    margin-left: 220px;
+    
+}
+.humiditypic{
+    height: 120px;
+    width: 150px;
+    margin: 0px auto;
+}
+.humidityspan{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.humiditypra{
+    font-size: 40px;
+
+}
+.humiditycontainer{
+    margin-left: 30px;
+}
+.windpic{
+    height: 120px;
+    width: 150px;
+    
+}
+.windspan{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.windpra{
+    font-size: 40px;
+}
+.windcontainer{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+::placeholder{
+    font-size: 25px;
+}
+.notfound{
+  margin-top: 80px;
+  display: none;
+  animation: ease-in;
+}
+.errorpic{
+  height: 229px;
+  width: 280px;
+  margin: 0px 0px 0px 550px;
+}
+.errorpra{
+  color: white;
+  font-size: 50px;
+  margin-left: 470px;
+    
+}
+.searchbutton{
+    border-radius: 40px;
+    height: 70px;
+    width: 70px;
+    margin: 0px 0px 0px 50px;
+}
+.finder{
+    height: 40px;
+    width: 40px;
+    margin: 4px 0px 2px 0px;
+}

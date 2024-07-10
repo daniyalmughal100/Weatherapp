@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./images/weather-icon.png" alt="">
+        <h1>My Weather App</h1>
+    </header>
+    <div class="container">
+        <div class="searchbar">
+        <input class="searchinputbar" type="text" placeholder="Enter your loacation..." spellcheck="false">
+        <button class="searchbutton"><img class="finder" src="./images/search-interface-symbol_54481.png" alt=""></button>
+        
+    </div>
+    <div class="notfound">
+        <img class="errorpic" src="images/404.png">
+        <p class="errorpra">Oops! Invalid location :/</p>
+    </div>
+    <div class="weatherdetailscontainer">
+    <div class="weatherdetails">
+        <img class="weatherstatus" src="./images/clear.png" alt="">
+        <div class="otherdetails">
+            <h2 class="temheading">26°C</h2>
+            <p class="cityname">City Name</p>
+            <div class="windandhumidity">
+                <div class="humidity">
+                    <img class="humiditypic" src="./images/humidity.png" alt="">
+                    <div class="humiditycontainer">
+                    <span class="humidityspan">68%</span>
+                    <p class="humiditypra">Humidity</p>
+                </div>
+                </div>
+                <div class="wind">
+                    <img class="windpic" src="./images/mist.png" alt="">
+                    <div class="windcontainer">
+                    <span class="windspan">2km/h</span>
+                    <p class="windpra">Wind Speed</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    </div>
+    
+
+
+    <script src="./final.js"></script>
+</body>
+</html>
